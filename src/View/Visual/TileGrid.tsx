@@ -139,6 +139,8 @@ export default class TileGrid extends Component<{}, TileGridState>
         });
     }
 
+    // Known BUG: If you scroll up too fast, we are not grabbing the tiles right, and you
+    //            get blank screen.
     private onScroll() : void
     {
         if (!this.containerRef.current)
