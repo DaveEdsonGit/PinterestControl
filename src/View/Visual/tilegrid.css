@@ -1,0 +1,14 @@
+.tilegridcontainer {
+    background-color: aqua;
+    min-height: 100vh;
+    max-height: 100vh;    
+    display: block;
+    overflow-y: scroll;
+}
+
+.tilegrid {
+    /* height: max-content; */
+    display: block;
+    position: relative;
+}
+  
